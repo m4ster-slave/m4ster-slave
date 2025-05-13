@@ -268,7 +268,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     output += "> ```\n";
-    output += "> <p>Software by this user may be <b>potentially hazardous</b>. Explore at your own risk.</p>\n\n";
+    output += "> <p>You’re coding at the bar ~ Im drunk at the office</p>\n\n";
     output += "---\n\n";
 
     // Define the small ASCII art for the languages section
