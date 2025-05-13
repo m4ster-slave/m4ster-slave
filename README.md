@@ -19,7 +19,7 @@
 > ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⢤⣈⡽⢿⣅⣤⠾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                     
 >                                                          
 > ```
-> <p>Software by this user may be <b>potentially hazardous</b>. Explore at your own risk.</p>
+> <p style="text-align: center;">We are <b>those</b>, the <b>Different<b/>. Technological rats, swimming in the <i>ocean of information</i>.</p>
 
 ---
 
@@ -42,9 +42,9 @@ HTML         [▓░░░░░░░░░░░░░░░░░░░] 1.2%
 +-------------+------------------------+----------------+--------------------------------------+
 |   Metric    |         Value          |     Metric     |                Value                 |
 +-------------+------------------------+----------------+--------------------------------------+
-|   Commits   |                     28 | Issues opened  |                                    0 |
-| PRs opened  |                      0 | Stars received |                                    0 |
-| Repos owned |                     13 | Contributed to |                                    0 |
+|   Commits   |                     11 | Issues opened  |                                    6 |
+| PRs opened  |                      3 | Stars received |                                    0 |
+| Repos owned |                     23 | Contributed to |                                    1 |
 +-------------+------------------------+----------------+--------------------------------------+
 ```
 
@@ -58,7 +58,7 @@ HTML         [▓░░░░░░░░░░░░░░░░░░░] 1.2%
 2025-04-15 10:44 | Push            | m4ster-slave/franzensfestegibsnet
 ------------------------------------------------------------
 
-Last updated: 2025-05-13 11:05:25
+Last updated: 2025-05-13 15:18:22
 ```
 
 > [!NOTE]
