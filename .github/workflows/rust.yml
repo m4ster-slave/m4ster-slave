@@ -1,0 +1,40 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  
+  workflow_dispatch:  
+
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+
+      - name: Build and Execute Rust Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cargo build --release
+          ./target/release/m4ster-slave_readme_update
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "🔄 Update README" || echo "No changes to commit"
+          git push || echo "No changes to push"
