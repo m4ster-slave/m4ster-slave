@@ -338,7 +338,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     output += "> [!NOTE]\n";
     output +=
-        "> <p align=\"center\">This README is <b>auto-generated</b> with Rust and Actions - Credits to the original creater is <a href=\"https://github.com/vxfemboy/vxfemboy/\">@vxfemboy</a></p>";
+        "> <p align=\"center\">This README is <b>auto-generated</b> with Rust and Actions - Credits to the original creater <a href=\"https://github.com/vxfemboy/vxfemboy/\">@vxfemboy</a></p>";
 
     let mut file = File::create("README.md").expect("Failed to create README.md");
     file.write_all(output.as_bytes())
