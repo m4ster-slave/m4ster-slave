@@ -284,8 +284,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         "⠈⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠙⠒⠓⠒⠛⠛⠛⠛⠛⠛⠓⠻⡏⣿⣿⠿",
     ];
 
-    output += "#### 🛠️ Languages\n";
-    output += "```css\n";
+    output += "#### Languages\n";
+    output += "```\n";
 
     let bar_and_percentage_width = 26; // "[██████████████████████] 100.0%" is about 26 chars
     let language_width = 12; // Defined in the format string as {:<12}
@@ -317,12 +317,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     output += "```\n\n";
 
-    output += "#### 📊 Stats\n";
+    output += "#### Stats\n";
     output += "```\n";
     output += &format_github_stats(&github_stats);
     output += "\n```\n\n";
 
-    output += "#### 🔥 Activity\n";
+    output += "#### Activity\n";
     output += "```\n";
     output += &"-".repeat(60);
     output += "\n";
